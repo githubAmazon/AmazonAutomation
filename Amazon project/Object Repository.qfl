@@ -1,0 +1,280 @@
+﻿'testcase11[AM-97-,Monitor(),Size]
+Function Size
+Dim search_Size,result_size
+'search_Size="22' - 23'_5"
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Laptops & Accessories").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Laptops & Accessories").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Monitors").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Monitors").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("22' - 23'").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("22' - 23'").Click
+wait(2)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("22' - 23'_5").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("22' - 23'_5").Check CheckPoint("22' - 23'_4")
+search_Size=DataTable.Value("Expected_Value","Test Data")
+result_size=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("22' - 23'_10").GetROProperty("text")
+'Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("22' - 23'_5").
+If Strcomp(search_Size,result_size)>=0 Then
+    Reporter.ReportEvent miccPass,"Computers & Accessories","Pass"
+    Size="Pass"
+Else
+    Reporter.ReportEvent miccPass,"Computers & Accessories","Fail"
+    Size="Fail"
+End If
+End Function
+
+'testcase12[AM-102-Tv_Home]
+Function Tv_Home
+Dim search_Tv
+'search_Tv ="Home Theater, TV & Video"
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Click
+wait(3)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Click
+wait(2)
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").WebElement("Electronics Home Theater,_2").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").WebElement("Electronics Home Theater,_2").Check CheckPoint("Electronics Home Theater, TV & Video Accessories Blu-ray Players & Recorders DVD Players & Recorders HD DVD Players Home Theater Systems Portable DVD & Blu-ray Players Projectors Soundbar Speakers Televisions TV Receivers")
+search_Tv=DataTable.Value("Expected_Value","Test Data")
+result_Tv=Browser("Online Shopping site in").Page("Mobile Phones: Buy New").WebElement("Home Theater, TV & Video").GetROProperty("text")
+If Strcomp(search_Tv,result_Tv)=0 Then
+    Reporter.ReportEvent miccPass,"TV & Home Entertainment","Pass"
+    Tv_Home="Pass"
+Else
+    Reporter.ReportEvent miccPass,"TV & Home Entertainment","Fail"
+    Tv_Home="Fail"
+End If
+End Function
+
+'Testcase13[AM-106-Tv_Home,Model]
+Function Model
+Dim search_model
+'search_model="2021"
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Click
+wait(3)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("2021").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("2021").Click
+wait(3)
+Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").WebElement("2021").Highlight
+Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").WebElement("2021").Check CheckPoint("2021")
+search_model=DataTable.Value("Expected_Value","Test Data")
+result_model=Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").WebElement("2021").GetROProperty("text")
+If Strcomp(search_model,result_model)=0 Then
+    Reporter.ReportEvent miccPass,"Search_Model 2021","Pass"
+    Model="Pass"
+Else
+    Reporter.ReportEvent miccPass,"Search_Model 2021","Fail"
+    Model="Fail"
+End If
+End Function
+
+'Testcase-14[AM-109-Tv_Home()-price_range()]
+Function price_range
+Dim search_Price
+'search_Price="₹1,000 - ₹5,000"
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Electronics").Click
+wait(3)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("TV & Home Entertainment").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("₹1,000 - ₹5,000").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("₹1,000 - ₹5,000").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("₹ ₹ Go").Highlight
+wait(5)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("₹1,000 - ₹5,000").Highlight
+search_Price=DataTable.Value("Expected_Value","Test Data")
+result_Price=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("₹1,000 - ₹5,000").GetROProperty("text")
+If Strcomp(search_Price,result_Price)>=0 Then
+    Reporter.ReportEvent miccPass,"price_range","Pass"
+    price_range="Pass"
+Else
+    Reporter.ReportEvent miccPass,"price_range","Fail"
+    price_range="Fail"
+End If	
+End Function
+
+'Testcase15[AM-124-Seller]
+Function seller
+Dim result_Seller
+'result_Seller="Nitrous Stores_2"
+Browser("Car & Vehicle Electronics").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Car & Vehicle Electronics").Page("Online Shopping site in").Link("Electronics").Highlight
+Browser("Car & Vehicle Electronics").Page("Online Shopping site in").Link("Electronics").Click
+wait(2)
+Browser("Car & Vehicle Electronics").Page("Electronics Store: Buy").Link("Audio").Highlight
+Browser("Car & Vehicle Electronics").Page("Electronics Store: Buy").Link("Audio").Click
+Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").Link("Nitrous Stores").Highlight
+Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").Link("Nitrous Stores").Click
+wait(2)
+Browser("Car & Vehicle Electronics").Page("Car & Vehicle Electronics").WebElement("Nitrous Stores").Check CheckPoint("Nitrous Stores")
+search_Seller=DataTable.Value("Expected_Value","Test Data")
+result_Seller=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Nitrous Stores").GetROProperty("text")	
+
+If Strcomp(result_Seller,search_Seller) =0 Then
+Reporter.ReportEvent micPass," seller" , "Pass"
+seller="Pass"
+Else
+Reporter.ReportEvent micFail," seller" , "Fail"
+seller="Fail"
+End if
+End Function
+
+'Testcase16[AM-125-checkbox2()]
+Function checkbox2
+Dim search_Check
+'search_Check="boAt_3"
+Browser("Car & Vehicle Electronics").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Click
+wait(2)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Audio").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Audio").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Headphones").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Headphones").Click
+wait(2)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Bluetooth").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Bluetooth").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Bluetooth").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Bluetooth").Check CheckPoint("Bluetooth")
+wait(2)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("boAt").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("boAt").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("boAt_2").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("boAt_2").Check CheckPoint("boAt_2")
+search_Check=DataTable.Value("Expected_Value","Test Data")
+result_Check=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("boAt_4").GetROProperty("text")
+If Instr(search_Check,result_Check)>=0 Then
+    Reporter.ReportEvent miccPass,"2 Check Box","Pass"
+     checkbox2="Pass"
+Else
+    Reporter.ReportEvent miccPass,"2 Check Box","Fail"
+     checkbox2="Fail"
+End If	
+End Function
+
+'Testcase17[AM-128-New_Arrivals()]
+Function New_Arrivals
+Dim search_Last30Days
+'search_Last30Days="p_n_date_first_available_absol_2"
+Browser("Car & Vehicle Electronics").Navigate(DataTable.Value("URL","Test Data"))
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Click
+wait(2)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras_2").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras_2").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Last 30 days").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Last 30 days").Click
+Wait(3)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_date_first_available_absol").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_date_first_available_absol").Check CheckPoint("p_n_date_first_available_absolute/1318487031")
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_date_first_available_absol_2").Highlight
+search_Last30Days=DataTable.Value("Expected_Value","Test Data")
+result_Last30Days=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Last 30 days").GetROProperty("text")
+If Strcomp(search_Last30Days,result_Last30Days)=0 Then
+    Reporter.ReportEvent miccPass," New_Arrivals","Pass"
+    New_Arrivals="Pass"
+Else
+    Reporter.ReportEvent miccPass," New_Arrivals","Fail"
+    New_Arrivals="Fail"
+End If
+End Function
+
+'Testcase18[AM-129-Condition()]
+Function Condition
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Dim search_Cond
+'search_Cond="p_n_condition-type/8609962031_2"
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Cameras").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Cameras").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Used").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Used").Click
+wait(2)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_condition-type/8609962031").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_condition-type/8609962031").Check CheckPoint("p_n_condition-type/8609962031")
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_condition-type/8609962031_2").Highlight
+search_Cond=DataTable.Value("Expected_Value","Test Data")
+result_Cond=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Used").GetROProperty("text")
+If Strcomp(search_Cond,result_Cond)=0 Then
+    Reporter.ReportEvent miccPass,"Item  Conditions","Pass"
+     Condition="Pass"
+Else
+     Reporter.ReportEvent miccPass," Item  Conditions","Fail"
+     Condition="Fail"
+End If
+End Function
+
+'testcase19-[AM-132-todays_Deals()]
+Function todays_Deals
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Dim search_Deals
+'search_Deals="p_n_pct-off-with-tax/270604570_4"
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Electronics_3").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("Electronics_3").Click
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras").Click
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Today's Deals").Highlight
+Browser("Online Shopping site in").Page("Mobile Phones: Buy New").Link("Today's Deals").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Today's Deals_2").HIghlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("Today's Deals_2").Check CheckPoint("Today's Deals_2")
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("70% Off or more").Highlight
+wait(3)
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").Link("70% Off or more").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_pct-off-with-tax/270604570_3").Highlight
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_pct-off-with-tax/270604570_3").Check CheckPoint("p_n_pct-off-with-tax/27060457031_3")
+search_Deals=DataTable.Value("Expected_Value","Test Data")
+result_Deals=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("p_n_pct-off-with-tax/270604570_4").GetROProperty("text")
+If Strcomp(search_Deals,result_Deals)=0 Then
+    Reporter.ReportEvent miccPass,"todays_Deals","Pass"
+    todays_Deals="Pass"
+Else
+    Reporter.ReportEvent miccPass," todays_Deals","Fail"
+    todays_Deals="Fail"
+End If
+End Function
+
+'testcase20-[AM-135-review_Cam()]
+Function review_Cam
+Browser("Online Shopping site in").Navigate(DataTable.Value("URL","Test Data"))
+Dim search_Cam
+'search_Cam="3 Stars & Up_2"
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Electronics").Click
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("Cameras").Click
+wait(2)
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("3 Stars & Up & Up").Highlight
+Browser("Online Shopping site in").Page("Electronics Store: Buy").Link("3 Stars & Up & Up").Click
+Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("3 Stars & Up_2").Highlight
+search_Cam=DataTable.Value("Expected_Value","Test Data")
+result_Cam=Browser("Online Shopping site in").Page("Car & Vehicle Electronics").WebElement("3 Stars & Up_3").GetROProperty("text")
+If Instr(search_Cam,result_Cam)>=0 Then
+    Reporter.ReportEvent miccPass,"review_Cam","Pass"
+    review_Cam="Pass"
+Else
+    Reporter.ReportEvent miccPass,"review_Cam","Fail"
+    review_Cam="Fail"
+End If
+End Function
+
+
+
+
+
+
+
+
+
+
+
+

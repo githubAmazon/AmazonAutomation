@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>Electronics</Name>
+    <Description>Transaction "Electronics" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Electronics</Name>
+    <Description>Transaction "Electronics" ended with "Pass" status (Total Duration: 0.0096 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Gps</Name>
+    <Description>Transaction "Gps" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Gps</Name>
+    <Description>Transaction "Gps" ended with "Pass" status (Total Duration: 0.0121 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>GoMechanic</Name>
+    <Description>Transaction "GoMechanic" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>GoMechanic</Name>
+    <Description>Transaction "GoMechanic" ended with "Pass" status (Total Duration: 0.0102 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Maa</Name>
+    <Description>Transaction "Maa" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Maa</Name>
+    <Description>Transaction "Maa" ended with "Pass" status (Total Duration: 0.0108 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name> review</Name>
+    <Description>Transaction " review" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name> review</Name>
+    <Description>Transaction " review" ended with "Pass" status (Total Duration: 0.0145 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>review</Name>
+    <Description>Transaction "review" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>review</Name>
+    <Description>Transaction "review" ended with "Pass" status (Total Duration: 0.0072 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Comp</Name>
+    <Description>Transaction "Comp" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Comp</Name>
+    <Description>Transaction "Comp" ended with "Pass" status (Total Duration: 0.0096 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Monitors</Name>
+    <Description>Transaction "Monitors" started.</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>04a857f0fabc4dbd94c55e3de94f68f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Monitors</Name>
+    <Description>Transaction "Monitors" ended with "Pass" status (Total Duration: 0.0118 sec).</Description>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>af1ec55ca42f413e961cbf116d8f7f82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "Chrome.exe",1</Name>
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>866b7a01e67246f19a22ac52ce581e6f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Link ].Click</Name>
+    <Description />
+    <StartTime>2022-07-04 23:24:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Link ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>3ec2b51f70054fb6a1d8bc533d1988dd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Laptops &amp; Accessories  ].Click</Name>
+    <Description />
+    <StartTime>2022-07-04 23:24:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ Laptops & Accessories  ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>6fa76c0daa4f48138b2857f2490e7263</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Computers &amp; accessories</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-04 23:24:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>ea21a6063ecd4d208c676a9729fac181</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebElement ].Click</Name>
+    <Description />
+    <StartTime>2022-07-04 23:24:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Computers & Accessories: Buy Computers & Accessories Online at Low Prices in India - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ WebElement ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>6fa76c0daa4f48138b2857f2490e7263</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Computers &amp; accessories</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-04 23:24:15</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>ea21a6063ecd4d208c676a9729fac181</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebElement ]</Name>
+    <ErrorText>Cannot identify the object "[ WebElement ]" (of class WebElement).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"[&amp;nbsp;WebElement&amp;nbsp;]"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;WebElement).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;xpath = //LI/SPAN/A[normalize-space()=22' - 23']/DIV[1]/LABEL[1]/I[1]&lt;br&gt;Mercury Class = WebElement&lt;br&gt;</Description>
+    <StartTime>2022-07-04 23:24:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user248\Desktop\Amazon\User-Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[size]]></FunctionName>
+          <Scripts><![CDATA[Browser(bowserObject).Page(pageObject).WebElement("xpath:=//LI/SPAN/A[normalize-space()=22' - 23']/DIV[1]/LABEL[1]/I[1]").Click]]></Scripts>
+          <LineNo><![CDATA[132]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[size()]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Monitors: Buy Monitors Online at Low Prices in India - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Monitors: Buy Monitors Online at Low Prices in India - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ WebElement ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"[&nbsp;WebElement&nbsp;]"&nbsp;(of&nbsp;class&nbsp;WebElement).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+      </TestObject>
+      <IconKey>6fa76c0daa4f48138b2857f2490e7263</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0c40663d-d0fa-4725-a097-4b95b857fa38.jpeg" highlight="0,0,1536,746" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-04 23:24:41</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>5130c42b7f9846fc90c7dde5f14d7834</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Duration>41</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e5161e3396fa4fb197ed50d2679b0791</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-07-04 23:24:00</StartTime>
+    <Duration>41</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>5f00ed2b93b34732a9b0e041d4e041bf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-04 23:23:56</StartTime>
+    <Duration>45</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>44074bfda9524a76a68fe81b6a36f0e4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user248</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-51</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res101</ResultName>
+    <RunStartTime>2022-07-04 23:23:56</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

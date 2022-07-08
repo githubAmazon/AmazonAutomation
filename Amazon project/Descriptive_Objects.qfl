@@ -1,0 +1,96 @@
+﻿Set bowserObject = Description.Create
+bowserObject("creationtime").value ="0"
+
+Set pageObject = Description.Create
+pageObject("micclass").value ="Page"
+
+Set clickElect = Description.Create
+clickElect("innerhtml").value ="Electronics"
+
+Set check = Description.Create
+check("xpath").value="//LI[2]/SPAN[1]/SPAN[1]"
+
+Set clickCar = Description.Create
+clickCar("xpath").value ="//DIV[@id='s-refinements']/DIV[1]/UL[1]/LI[4]/SPAN[1]/A[1]/SPAN[1]"
+
+Set clickGps = Description.Create
+clickGps("xpath").value ="//DIV[@id='s-refinements']/DIV[1]/UL[1]/LI[4]/SPAN[1]/A[1]/SPAN[1]"
+
+Set cgps = Description.Create
+cgps("xpath").value ="//SPAN/LI/SPAN/DIV/A/DIV[normalize-space()='Car GPS']"
+
+Set gmech = Description.Create
+gmech("xpath").value ="//LI/SPAN/A[normalize-space()='GoMechanic']/DIV[1]/LABEL[1]/I[1]"
+
+Set checkgm = Description.Create
+checkgm("xpath").value ="//LI/SPAN/A[normalize-space()='GoMechanic']/SPAN[1]"
+
+Set clickmob = Description.Create
+clickmob("xpath").value ="//DIV[@id='nav-subnav']/A[2]/SPAN[1]"
+
+Set checkMob = Description.Create
+checkMob("xpath").value ="//DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]/H2[1]"
+
+Set Chkreview = Description.Create
+Chkreview("outerhtml").value ="<i class='a-icon a-icon-star-medium a-star-medium-4'><span class='a-icon-alt'>4 Stars &amp; Up</span></i>"
+
+Set re = Description.Create
+re("xpath").value ="//LI/SPAN/A/DIV/I[normalize-space()='4 Stars & Up']"
+
+Set dis = Description.Create
+dis("xpath").value ="//LI/SPAN/A[normalize-space()='35% Off or more']/SPAN[1]"
+
+Set cldis = Description.Create
+cldis("xpath").value ="//LI/SPAN/A[normalize-space()='35% Off or more']/SPAN[1]"
+
+Set Obj7 = Description.Create
+Obj7("xpath").value ="//DIV[@id='nav-subnav']/A[3]/SPAN[1]"
+
+Set Obji =Description.Create
+Obji("xpath").value ="//DIV[@id='s-refinements']/DIV[1]/UL[1]/LI[1]"
+
+Set Objmon =Description.Create
+Objmon("xpath").value ="//LI/SPAN/A[normalize-space()='Monitors']/SPAN[1]"
+
+Set Objmonitor =Description.Create
+Objmonitor("xpath").value ="//DIV/UL/LI[normalize-space()='Monitors']"
+'----------------login----------------
+Mobi="9130260869"
+enter_pass="62c3e1418c878430de343504d01c0bdfd4e216451f1f9ee9ffbb"
+Set Signin = Description.Create
+Signin("xpath").value="//A[@id='nav-link-accountList']"
+
+Set Username= Description.Create
+Username("name").value="email"
+
+Set Continue= Description.Create
+Continue("xpath").value="//INPUT[@id='continue']"
+
+Set Password= Description.Create
+Password("html id").value="ap_password"
+
+Set Sign_In_Submit= Description.Create
+Sign_In_Submit("xpath").value="//INPUT[@id='signInSubmit']"
+
+Set logout= Description.Create
+logout("xpath").value="//A[@id='nav-item-signout']/SPAN[normalize-space()='Sign Out']"
+'------------------------testcase9[AM-119]-----------------------
+Set click_audio =Description.Create
+click_audio("xpath").value="//A/SPAN[normalize-space()='Audio']"
+
+Set check_Availability =Description.Create
+check_Availability("xpath").value="//DIV/UL/LI/SPAN/A[normalize-space()='Include Out of Stock']/DIV[1]/LABEL[1]/I[1]"
+
+Set click_outofbox =Description.Create
+click_outofbox("xpath").value="//DIV[@id='filters']/UL/LI[normalize-space()='Include Out of Stock']"
+
+'------------------testcase10[Am-127]----------------
+Set click_Camera =Description.Create
+click_Camera("xpath").value="//A[normalize-space()='Cameras']/SPAN[1]"
+
+Set click_DSLR =Description.Create
+click_DSLR("xpath").value="//LI/SPAN/A[normalize-space()='DSLR Cameras']/SPAN[1]"
+
+Set check_DSLR =Description.Create
+check_DSLR("xpath").value="//DIV/DIV/DIV/DIV/SPAN[normalize-space()='Hot new releases']"
+

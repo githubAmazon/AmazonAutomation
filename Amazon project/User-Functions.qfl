@@ -1,0 +1,233 @@
+﻿'test case 1=[AM-29]Verify the functionality of accessories
+Function Electronics()
+Dim searchString
+searchString = "Car & Vehicle Electronics"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Highlight
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickCar).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(clickCar).Click
+searchString=DataTable.Value("Expected_Value","Test Data")
+resultString=Browser(bowserObject).Page(pageObject).WebElement(check).GetROProperty("text")
+If Strcomp(resultString,searchString)=0 Then
+Reporter.ReportEvent micPass," Electronics " , "Pass"
+Electronics="Pass"	
+Else
+Reporter.ReportEvent micFail,"Electronics" , "Fail"
+Electronics="Fail"
+End if
+End Function
+
+'testcase2[AM-46]
+Function Gps
+Dim searchString
+'searchString = "Car GPS"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickCar).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickGps).Click
+searchString=DataTable.Value("Expected_Value","Test Data")
+resultStri=Browser(bowserObject).Page(pageObject).WebElement(cgps).GetROProperty("text")
+If Strcomp(resultStri,searchString)=0 Then
+Reporter.ReportEvent micPass," Car & Vehicle GPS Devices " , "Pass"
+Gps="Pass"
+Else
+Reporter.ReportEvent micFail,"Car & Vehicle GPS Devices" , "Fail"
+Gps="Fail"
+End if
+End Function
+
+'testcase3[AM-51]
+
+Function GoMechanic
+Dim searchString
+'searchString="GoMechanic"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickCar).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickGps).Click
+Browser(bowserObject).Page(pageObject).WebElement(gmech).Click
+searchMech=DataTable.Value("Expected_Value","Test Data")
+resultMech=Browser(bowserObject).Page(pageObject).WebElement(checkgm).GetROProperty("text")
+If Strcomp(resultMech,searchMech)=0 Then
+Reporter.ReportEvent micPass," Car & Vehicle GPS Devices " , "Pass"
+GoMechanic="Pass"
+Else
+Reporter.ReportEvent micFail," Car & Vehicle GPS Devices " , "Fail"
+GoMechanic="Fail"
+End if
+End Function
+
+
+'testcase4[AM-58]
+Function Maa
+Dim searchString
+'searchString="Top deals on mobiles and accessories"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickmob).Click
+searchMaa=DataTable.Value("Expected_Value","Test Data")
+resultMaa =Browser(bowserObject).Page(pageObject).WebElement(checkMob).GetROProperty("text")
+If Strcomp(searchMaa,resultMaa)=0 Then
+Reporter.ReportEvent micPass,"Mobiles & Accessories" , "Pass"
+Maa="Pass"
+Else
+Reporter.ReportEvent micFail,"Mobiles & Accessories", "Fail"
+Maa="Fail"
+End if
+End Function
+
+
+'testcase5[AM-60]
+Function review
+Dim searchString
+'searchString="4 Stars & Up"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickmob).Click
+Browser(bowserObject).Page(pageObject).WebElement(re).Click
+searchRev=DataTable.Value("Expected_Value","Test Data")
+resultRev=Browser(bowserObject).Page(pageObject).WebElement(re).GetROProperty("text")
+If Strcomp(resultRev,searchRev)=0 Then
+Reporter.ReportEvent micPass," Avg Customer Review " , "Pass"
+review="Pass"
+Else
+Reporter.ReportEvent micFail,"Avg Customer Review" , "Fail"
+review="Fail"
+End if	
+End Function
+
+'testcase6[AM-66]
+Function discount
+Dim searchString
+'searchString="35% Off or more"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(clickmob).Click
+Browser(bowserObject).Page(pageObject).WebElement(re).Click
+Browser(bowserObject).Page(pageObject).WebElement(cldis).Click
+searchDis=DataTable.Value("Expected_Value","Test Data")
+resultDis=Browser(bowserObject).Page(pageObject).WebElement(cldis).GetROProperty("text")
+If Strcomp(resultDis,searchDis)=0 Then
+Reporter.ReportEvent micPass," Discount " , "Pass"
+discount="Pass"
+Else
+Reporter.ReportEvent micFail,"Discount" , "Fail"
+discount="Fail"
+End if
+End Function
+
+'testcase7[AM-83]
+Function Comp
+Dim ser7
+'ser7="Computers & accessories"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(Obj7).Click
+serComp=DataTable.Value("Expected_Value","Test Data")
+rescomp=Browser(bowserObject).Page(pageObject).WebElement(Obji).GetROProperty("text")
+If Strcomp(serComp,rescomp)=0 Then
+Reporter.ReportEvent micPass,"Computers & accessories" , "Pass"
+Comp="Pass"
+Else
+Reporter.ReportEvent micFail,"Computers & accessories" , "Fail"
+Comp= "Fail"
+End if
+End Function
+
+'testcase8[AM-93]
+Function Monitor
+Dim ser8
+'ser8="Monitors"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Highlight
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(Obj7).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(Obj7).Click
+Browser(bowserObject).Page(pageObject).WebElement(Objmon).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(Objmon).Click
+serMoni=DataTable.Value("Expected_Value","Test Data")
+resmon=Browser(bowserObject).Page(pageObject).WebElement(Objmonitor).GetROProperty("text")   
+If Strcomp(serMoni,resmon)=0 Then
+Reporter.ReportEvent micPass,"Computers & accessories" , "Pass"
+Monitor="Pass"
+Else
+Reporter.ReportEvent micFail,"Computers & accessories" , "Fail"
+Monitor="Fail"
+End if
+End Function
+
+Function login1
+Browser(bowserObject).Page(pageObject).Link(Signin).Click
+Browser(bowserObject).Page(pageObject).WebEdit(Username).Set Mobi
+Browser(bowserObject).Page(pageObject).WebButton(Continue).Click
+Browser(bowserObject).Page(pageObject).WebEdit(Password).SetSecure enter_pass
+Browser(bowserObject).Page(pageObject).WebButton(Sign_In_Submit).Click
+End Function
+
+Function logout1
+Browser(bowserObject).Page(pageObject).Link(Signin).Click
+Browser(bowserObject).Page(pageObject).WebElement(logout).Click
+SystemUtil.CloseProcessByName"Chrome.exe"
+End Function
+ 
+'testcase9[AM-119]
+Function Audio
+Dim search_audio
+'search_audio="Include Out of Stock"
+Browser(bowserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(bowserObject).Page(pageObject).Link(clickElect).Highlight
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+Browser(bowserObject).Page(pageObject).WebElement(click_audio).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(click_audio).Click
+Browser(bowserObject).Page(pageObject).WebElement(check_Availability).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(check_Availability).Click
+Browser(bowserObject).Page(bowserObject).WebElement(click_outofbox).Highlight
+search_audio=DataTable.Value("Expected_Value","Test Data")
+result_audio=Browser(bowserObject).Page(bowserObject).WebElement(click_outofbox).GetROProperty("text")
+If Strcomp(result_audio,search_audio) =0 Then
+Reporter.ReportEvent micPass,"Availability " , "Pass"
+Audio="Pass"
+Else
+Reporter.ReportEvent micFail,"Availability" , "Fail"
+Audio="Fail"
+End if
+End Function
+
+'testcase10[AM-127]
+Function Camera
+Dim search_Camera
+'search_Camera="Hot new releases_2"
+Browser(bowserObject).Page(pageObject).Link(clickElect).Highlight
+Browser(bowserObject).Page(pageObject).Link(clickElect).Click
+wait(2)
+Browser(bowserObject).Page(pageObject).Link(clickElect).WebElement(click_Camera).Highlight
+Browser(bowserObject).Page(pageObject).Link(clickElect).WebElement(click_Camera).Click
+wait(2)
+Browser(bowserObject).Page(pageObject).WebElement(click_DSLR).Highlight
+Browser(bowserObject).Page(pageObject).WebElement(click_DSLR).Click
+
+search_Camera=DataTable.Value("Expected_Value","Test Data")
+result_Camera=Browser(bowserObject).Page(pageObject).WebElement(check_DSLR).GetROProperty("text")
+If Strcomp(result_Camera,search_Camera) =0 Then
+Reporter.ReportEvent micPass,"Digital Cameras" , "Pass"
+Camera="Pass"
+Else
+Reporter.ReportEvent micFail,"Digital Cameras" , "Fail"
+Camera="Fail"
+End if
+End Function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
